@@ -3,7 +3,7 @@ import { auth, db } from './firebase/config';
 import { onAuthStateChanged } from 'firebase/auth';
 import { doc, getDoc } from 'firebase/firestore';
 import { motion } from 'framer-motion';
-import Calendar from './components/Calendar/Calendar';
+import Calendar from './components/calendar/calendar';
 import Login from './components/Auth/Login';
 
 function App() {
